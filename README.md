@@ -1,63 +1,64 @@
-Iris Flower Classification using Machine Learning
-This project implements a Supervised Machine Learning Classification model using Logistic Regression on the Iris dataset obtained from Kaggle.
+#  Iris Flower Classification using Machine Learning
 
-##Dataset Information:
+This project implements a Supervised Machine Learning Classification model using Logistic Regression on the Iris dataset from Kaggle.
 
--Total Samples: 150
--Input Features: 4
+---
 
-##Features
+##  Dataset Information
 
--Sepal Length
--Sepal Width
--Petal Length
--Petal Width
+- Total Samples: 150
+- Input Features: 4
+- Target Classes: 3
 
-Target Classes: 3
+---
 
--Iris-setosa
--Iris-versicolor
--Iris-virginica
+##  Features
 
-The dataset is clean and contains no missing values.
+- Sepal Length
+- Sepal Width
+- Petal Length
+- Petal Width
 
+---
 
+## Target Classes
 
-##Machine Learning Model:
+- Iris-setosa
+- Iris-versicolor
+- Iris-virginica
 
-Algorithm Used: Logistic Regression
+---
 
-Type: Supervised Learning
+##  Machine Learning Model
 
-Problem Type: Multi-Class Classification
+- Algorithm Used: Logistic Regression
+- Type: Supervised Learning
+- Problem Type: Multi-Class Classification
 
-Train-Test Split: 80% Training / 20% Testing
+---
 
+## Results
 
+- Accuracy: 100%
 
-##Model Performance:
-
-Accuracy: 100%
-
-##Confusion Matrix:
+### Confusion Matrix
 ```
-[[10  0  0]
- [ 0  9  0]
- [ 0  0 11]]
+[[10 0 0]
+ [0 9 0]
+ [0 0 11]]
 ```
-All predictions were classified correctly.
+---
 
+## 🛠 Technologies Used
 
+- Python
+- Pandas
+- Scikit-learn
+- VS Code
 
-##Technologies Used:
+---
 
--Python
--Pandas
--Scikit-learn
--VS Code
+## ✅ Conclusion
 
+The Logistic Regression model successfully classified Iris flowers with 100% accuracy, demonstrating the effectiveness of supervised machine learning for classification tasks.
 
-
-##Conclusion:
-
-The Logistic Regression model successfully classified iris flower species with perfect accuracy on the test dataset. This project demonstrates the effectiveness of supervised machine learning techniques for structured classification problems.
