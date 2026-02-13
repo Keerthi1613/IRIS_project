@@ -25,6 +25,7 @@ Iris-virginica
 
 The dataset is clean and contains no missing values.
 
+
 Machine Learning Model:
 
 Algorithm Used: Logistic Regression
@@ -34,6 +35,7 @@ Type: Supervised Learning
 Problem Type: Multi-Class Classification
 
 Train-Test Split: 80% Training / 20% Testing
+
 
 Model Performance:
 
@@ -45,6 +47,7 @@ Confusion Matrix:
  [ 0  0 11]]
 All predictions were classified correctly.
 
+
 Technologies Used:
 
 Python
@@ -54,6 +57,7 @@ Pandas
 Scikit-learn
 
 VS Code
+
 
 Conclusion:
 
