@@ -3,27 +3,24 @@ This project implements a Supervised Machine Learning Classification model using
 
 Dataset Information:
 
-Total Samples: 150
+-Total Samples: 150
+-Input Features: 4
 
-Input Features: 4
+##Features
 
-Sepal Length
-
-Sepal Width
-
-Petal Length
-
-Petal Width
+-Sepal Length
+-Sepal Width
+-Petal Length
+-Petal Width
 
 Target Classes: 3
 
-Iris-setosa
-
-Iris-versicolor
-
-Iris-virginica
+-Iris-setosa
+-Iris-versicolor
+-Iris-virginica
 
 The dataset is clean and contains no missing values.
+
 
 
 Machine Learning Model:
@@ -37,26 +34,28 @@ Problem Type: Multi-Class Classification
 Train-Test Split: 80% Training / 20% Testing
 
 
+
 Model Performance:
 
 Accuracy: 100%
 
 Confusion Matrix:
+```
 [[10  0  0]
  [ 0  9  0]
  [ 0  0 11]]
+```
 All predictions were classified correctly.
+
 
 
 Technologies Used:
 
-Python
+-Python
+-Pandas
+-Scikit-learn
+-VS Code
 
-Pandas
-
-Scikit-learn
-
-VS Code
 
 
 Conclusion:
